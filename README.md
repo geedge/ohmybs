@@ -13,4 +13,4 @@
 
 ## awdb文件
 
-![image-20240527102807883](D:\EXP\bs_fig\figcode\README.assets\image-20240527102807883.png)
+![image-20240527102807883](.\README.assets\image-20240527102807883.png)
