@@ -5,7 +5,6 @@ from analyzer import node
 
 data = []
 with Progress() as p:
-    # inputdata = "./openIPv6dns.txt"
     inputdata="./recurisivev6dns.txt"
     print(len(open(inputdata).readlines()))
     task = p.add_task("[blue]Working...", total=sum(1 for _ in open(inputdata)))
@@ -61,7 +60,6 @@ cc = d['isp'].value_counts().to_dict()
 
 # 柱状图
 bar_chart = pygal.Bar(print_values=True, print_values_position='top')
-# bar_chart.title = '国内各服务商开放IPv6 DNS解析器数量'
 i=0
 x=[]
 for k,v in cc.items():
